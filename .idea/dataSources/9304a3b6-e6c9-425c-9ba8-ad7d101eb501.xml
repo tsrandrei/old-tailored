@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="postgres@localhost">
+  <database-model serializer="dbm" rdbms="POSTGRES" format-version="4.11">
+    <root id="1">
+      <ServerVersion>10.5</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="ApiExemple_development">
+      <ObjectId>25006</ObjectId>
+      <Owner>andrei</Owner>
+    </database>
+    <database id="3" parent="1" name="ApiExemple_test">
+      <ObjectId>25007</ObjectId>
+      <Owner>andrei</Owner>
+    </database>
+    <database id="4" parent="1" name="Contriboote_development">
+      <ObjectId>25685</ObjectId>
+      <Owner>andrei</Owner>
+    </database>
+    <database id="5" parent="1" name="Contriboote_test">
+      <ObjectId>25686</ObjectId>
+      <Owner>andrei</Owner>
+    </database>
+    <database id="6" parent="1" name="MovieReviewApp_development">
+      <ObjectId>24949</ObjectId>
+      <Owner>andrei</Owner>
+    </database>
+    <database id="7" parent="1" name="MovieReviewApp_test">
+      <ObjectId>25176</ObjectId>
+      <Owner>andrei</Owner>
+    </database>
+    <database id="8" parent="1" name="Pin_board_development">
+      <ObjectId>16726</ObjectId>
+      <Owner>andrei</Owner>
+    </database>
+    <database id="9" parent="1" name="Pin_board_test">
+      <ObjectId>16727</ObjectId>
+      <Owner>andrei</Owner>
+    </database>
+    <database id="10" parent="1" name="RailsReactExample_development">
+      <ObjectId>25035</ObjectId>
+      <Owner>andrei</Owner>
+    </database>
+    <database id="11" parent="1" name="RailsReactExample_test">
+      <ObjectId>25036</ObjectId>
+      <Owner>andrei</Owner>
+    </database>
+    <database id="12" parent="1" name="RecipeBox_development">
+      <ObjectId>16663</ObjectId>
+      <Owner>andrei</Owner>
+    </database>
+    <database id="13" parent="1" name="RecipeBox_test">
+      <ObjectId>16664</ObjectId>
+      <Owner>andrei</Owner>
+    </database>
+    <database id="14" parent="1" name="ReviewsApp_development">
+      <ObjectId>25215</ObjectId>
+      <Owner>andrei</Owner>
+    </database>
+    <database id="15" parent="1" name="ReviewsApp_test">
+      <ObjectId>25622</ObjectId>
+      <Owner>andrei</Owner>
+    </database>
+    <database id="16" parent="1" name="Tailor_development">
+      <ObjectId>28764</ObjectId>
+      <Owner>andrei</Owner>
+      <IntrospectionStateNumber>115</IntrospectionStateNumber>
+      <Visible>1</Visible>
+    </database>
+    <database id="17" parent="1" name="Tailor_test">
+      <ObjectId>28765</ObjectId>
+      <Owner>andrei</Owner>
+      <IntrospectionStateNumber>115</IntrospectionStateNumber>
+      <Visible>1</Visible>
+    </database>
+    <database id="18" parent="1" name="TestingRails_development">
+      <ObjectId>25333</ObjectId>
+      <Owner>andrei</Owner>
+    </database>
+    <database id="19" parent="1" name="TestingRails_test">
+      <ObjectId>25379</ObjectId>
+      <Owner>andrei</Owner>
+    </database>
+    <database id="20" parent="1" name="WorkoutLogApp_development">
+      <ObjectId>25407</ObjectId>
+      <Owner>andrei</Owner>
+    </database>
+    <database id="21" parent="1" name="WorkoutLogApp_test">
+      <ObjectId>25453</ObjectId>
+      <Owner>andrei</Owner>
+    </database>
+    <database id="22" parent="1" name="conexion_felina_development">
+      <ObjectId>26688</ObjectId>
+      <Owner>andrei</Owner>
+    </database>
+    <database id="23" parent="1" name="conexion_felina_test">
+      <ObjectId>26689</ObjectId>
+      <Owner>andrei</Owner>
+    </database>
+    <database id="24" parent="1" name="db_blog_rails_dev">
+      <ObjectId>16603</ObjectId>
+      <Owner>andrei</Owner>
+    </database>
+    <database id="25" parent="1" name="first_app_development">
+      <ObjectId>16386</ObjectId>
+      <Owner>first_app</Owner>
+    </database>
+    <database id="26" parent="1" name="first_app_test">
+      <ObjectId>16387</ObjectId>
+      <Owner>first_app</Owner>
+    </database>
+    <database id="27" parent="1" name="hello_world_db">
+      <ObjectId>16384</ObjectId>
+      <Owner>andrei</Owner>
+    </database>
+    <database id="28" parent="1" name="juniorjobs">
+      <ObjectId>26555</ObjectId>
+      <Owner>andrei</Owner>
+    </database>
+    <database id="29" parent="1" name="lessy_development">
+      <ObjectId>26374</ObjectId>
+      <Owner>andrei</Owner>
+    </database>
+    <database id="30" parent="1" name="lessy_test">
+      <ObjectId>26375</ObjectId>
+      <Owner>andrei</Owner>
+    </database>
+    <database id="31" parent="1" name="poc_development">
+      <ObjectId>25703</ObjectId>
+      <Owner>andrei</Owner>
+    </database>
+    <database id="32" parent="1" name="poc_test">
+      <ObjectId>25704</ObjectId>
+      <Owner>andrei</Owner>
+    </database>
+    <database id="33" parent="1" name="postgres">
+      <ObjectId>13281</ObjectId>
+      <Comment>default administrative connection database</Comment>
+      <Owner>andrei</Owner>
+      <IntrospectionStateNumber>115</IntrospectionStateNumber>
+      <Current>1</Current>
+    </database>
+    <database id="34" parent="1" name="rapt_development">
+      <ObjectId>28510</ObjectId>
+      <Owner>andrei</Owner>
+    </database>
+    <database id="35" parent="1" name="rapt_test">
+      <ObjectId>28511</ObjectId>
+      <Owner>andrei</Owner>
+    </database>
+    <database id="36" parent="1" name="superfit_development">
+      <ObjectId>25667</ObjectId>
+      <Owner>andrei</Owner>
+    </database>
+    <database id="37" parent="1" name="superfit_test">
+      <ObjectId>28194</ObjectId>
+      <Owner>andrei</Owner>
+    </database>
+    <database id="38" parent="1" name="teamtailor">
+      <ObjectId>28227</ObjectId>
+      <Owner>andrei</Owner>
+    </database>
+    <role id="39" parent="1" name="andrei">
+      <ObjectId>10</ObjectId>
+      <SuperRole>1</SuperRole>
+      <Inherit>1</Inherit>
+      <CreateRole>1</CreateRole>
+      <CreateDb>1</CreateDb>
+      <CanLogin>1</CanLogin>
+      <Replication>1</Replication>
+      <ConnectionLimit>-1</ConnectionLimit>
+      <BypassRls>1</BypassRls>
+    </role>
+    <role id="40" parent="1" name="blog_rails_development">
+      <ObjectId>16602</ObjectId>
+      <Inherit>1</Inherit>
+      <CreateDb>1</CreateDb>
+      <CanLogin>1</CanLogin>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="41" parent="1" name="first_app">
+      <ObjectId>16385</ObjectId>
+      <Inherit>1</Inherit>
+      <CreateDb>1</CreateDb>
+      <CanLogin>1</CanLogin>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="42" parent="1" name="pg_monitor">
+      <ObjectId>3373</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="43" parent="1" name="pg_read_all_settings">
+      <ObjectId>3374</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="44" parent="1" name="pg_read_all_stats">
+      <ObjectId>3375</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="45" parent="1" name="pg_signal_backend">
+      <ObjectId>4200</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="46" parent="1" name="pg_stat_scan_tables">
+      <ObjectId>3377</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <schema id="47" parent="16" name="information_schema">
+      <ObjectId>12990</ObjectId>
+      <Owner>andrei</Owner>
+    </schema>
+    <schema id="48" parent="16" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+      <Comment>system catalog schema</Comment>
+      <Owner>andrei</Owner>
+    </schema>
+    <schema id="49" parent="16" name="pg_temp_1">
+      <ObjectId>11736</ObjectId>
+      <Owner>andrei</Owner>
+    </schema>
+    <schema id="50" parent="16" name="pg_toast">
+      <ObjectId>99</ObjectId>
+      <Comment>reserved schema for TOAST tables</Comment>
+      <Owner>andrei</Owner>
+    </schema>
+    <schema id="51" parent="16" name="pg_toast_temp_1">
+      <ObjectId>11737</ObjectId>
+      <Owner>andrei</Owner>
+    </schema>
+    <schema id="52" parent="16" name="public">
+      <ObjectId>2200</ObjectId>
+      <Comment>standard public schema</Comment>
+      <Owner>andrei</Owner>
+      <IntrospectionTimestamp>2019-02-05.20:03:32.208</IntrospectionTimestamp>
+      <IntrospectionStateNumber>145465</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <access-method id="53" parent="16" name="btree">
+      <ObjectId>403</ObjectId>
+      <Comment>b-tree index access method</Comment>
+      <Handler>pg_catalog.bthandler</Handler>
+      <HandlerId>330</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="54" parent="16" name="hash">
+      <ObjectId>405</ObjectId>
+      <Comment>hash index access method</Comment>
+      <Handler>pg_catalog.hashhandler</Handler>
+      <HandlerId>331</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="55" parent="16" name="gist">
+      <ObjectId>783</ObjectId>
+      <Comment>GiST index access method</Comment>
+      <Handler>pg_catalog.gisthandler</Handler>
+      <HandlerId>332</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="56" parent="16" name="gin">
+      <ObjectId>2742</ObjectId>
+      <Comment>GIN index access method</Comment>
+      <Handler>pg_catalog.ginhandler</Handler>
+      <HandlerId>333</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="57" parent="16" name="spgist">
+      <ObjectId>4000</ObjectId>
+      <Comment>SP-GiST index access method</Comment>
+      <Handler>pg_catalog.spghandler</Handler>
+      <HandlerId>334</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="58" parent="16" name="brin">
+      <ObjectId>3580</ObjectId>
+      <Comment>block range index (BRIN) access method</Comment>
+      <Handler>pg_catalog.brinhandler</Handler>
+      <HandlerId>335</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <schema id="59" parent="17" name="information_schema">
+      <ObjectId>12990</ObjectId>
+      <Owner>andrei</Owner>
+    </schema>
+    <schema id="60" parent="17" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+      <Comment>system catalog schema</Comment>
+      <Owner>andrei</Owner>
+    </schema>
+    <schema id="61" parent="17" name="pg_temp_1">
+      <ObjectId>11736</ObjectId>
+      <Owner>andrei</Owner>
+    </schema>
+    <schema id="62" parent="17" name="pg_toast">
+      <ObjectId>99</ObjectId>
+      <Comment>reserved schema for TOAST tables</Comment>
+      <Owner>andrei</Owner>
+    </schema>
+    <schema id="63" parent="17" name="pg_toast_temp_1">
+      <ObjectId>11737</ObjectId>
+      <Owner>andrei</Owner>
+    </schema>
+    <schema id="64" parent="17" name="public">
+      <ObjectId>2200</ObjectId>
+      <Comment>standard public schema</Comment>
+      <Owner>andrei</Owner>
+      <IntrospectionTimestamp>2019-02-05.20:03:32.374</IntrospectionTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <access-method id="65" parent="17" name="btree">
+      <ObjectId>403</ObjectId>
+      <Comment>b-tree index access method</Comment>
+      <Handler>pg_catalog.bthandler</Handler>
+      <HandlerId>330</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="66" parent="17" name="hash">
+      <ObjectId>405</ObjectId>
+      <Comment>hash index access method</Comment>
+      <Handler>pg_catalog.hashhandler</Handler>
+      <HandlerId>331</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="67" parent="17" name="gist">
+      <ObjectId>783</ObjectId>
+      <Comment>GiST index access method</Comment>
+      <Handler>pg_catalog.gisthandler</Handler>
+      <HandlerId>332</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="68" parent="17" name="gin">
+      <ObjectId>2742</ObjectId>
+      <Comment>GIN index access method</Comment>
+      <Handler>pg_catalog.ginhandler</Handler>
+      <HandlerId>333</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="69" parent="17" name="spgist">
+      <ObjectId>4000</ObjectId>
+      <Comment>SP-GiST index access method</Comment>
+      <Handler>pg_catalog.spghandler</Handler>
+      <HandlerId>334</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="70" parent="17" name="brin">
+      <ObjectId>3580</ObjectId>
+      <Comment>block range index (BRIN) access method</Comment>
+      <Handler>pg_catalog.brinhandler</Handler>
+      <HandlerId>335</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <sequence id="71" parent="52" name="candidates_id_seq">
+      <ObjectId>28782</ObjectId>
+      <Owner>andrei</Owner>
+      <StateNumber>145462</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+      <CacheSize>1</CacheSize>
+      <DataType>bigint</DataType>
+    </sequence>
+    <sequence id="72" parent="52" name="job_applications_id_seq">
+      <ObjectId>28805</ObjectId>
+      <Owner>andrei</Owner>
+      <StateNumber>145464</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+      <CacheSize>1</CacheSize>
+      <DataType>bigint</DataType>
+    </sequence>
+    <sequence id="73" parent="52" name="jobs_id_seq">
+      <ObjectId>28793</ObjectId>
+      <Owner>andrei</Owner>
+      <StateNumber>145463</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+      <CacheSize>1</CacheSize>
+      <DataType>bigint</DataType>
+    </sequence>
+    <sequence id="74" parent="52" name="notes_id_seq">
+      <ObjectId>28818</ObjectId>
+      <Owner>andrei</Owner>
+      <StateNumber>145465</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+      <CacheSize>1</CacheSize>
+      <DataType>bigint</DataType>
+    </sequence>
+    <table id="75" parent="52" name="ar_internal_metadata">
+      <ObjectId>28774</ObjectId>
+      <Owner>andrei</Owner>
+      <StateNumber>145461</StateNumber>
+    </table>
+    <table id="76" parent="52" name="candidates">
+      <ObjectId>28784</ObjectId>
+      <Owner>andrei</Owner>
+      <StateNumber>145462</StateNumber>
+    </table>
+    <table id="77" parent="52" name="job_applications">
+      <ObjectId>28807</ObjectId>
+      <Owner>andrei</Owner>
+      <StateNumber>145464</StateNumber>
+    </table>
+    <table id="78" parent="52" name="jobs">
+      <ObjectId>28795</ObjectId>
+      <Owner>andrei</Owner>
+      <StateNumber>145463</StateNumber>
+    </table>
+    <table id="79" parent="52" name="notes">
+      <ObjectId>28820</ObjectId>
+      <Owner>andrei</Owner>
+      <StateNumber>145465</StateNumber>
+    </table>
+    <table id="80" parent="52" name="schema_migrations">
+      <ObjectId>28766</ObjectId>
+      <Owner>andrei</Owner>
+      <StateNumber>145460</StateNumber>
+    </table>
+    <column id="81" parent="75" name="key">
+      <Position>1</Position>
+      <DataType>varchar|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>145461</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="82" parent="75" name="value">
+      <Position>2</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>145461</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="83" parent="75" name="created_at">
+      <Position>3</Position>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>145461</StateNumber>
+      <TypeId>1114</TypeId>
+    </column>
+    <column id="84" parent="75" name="updated_at">
+      <Position>4</Position>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>145461</StateNumber>
+      <TypeId>1114</TypeId>
+    </column>
+    <index id="85" parent="75" name="ar_internal_metadata_pkey">
+      <ObjectId>28780</ObjectId>
+      <ColNames>key</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="86" parent="75" name="ar_internal_metadata_pkey">
+      <ObjectId>28781</ObjectId>
+      <ColNames>key</ColNames>
+      <UnderlyingIndexName>ar_internal_metadata_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="87" parent="76" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>145462</StateNumber>
+      <DefaultExpression>nextval(&apos;candidates_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+      <SequenceName>candidates_id_seq</SequenceName>
+    </column>
+    <column id="88" parent="76" name="full_name">
+      <Position>2</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>145462</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="89" parent="76" name="email">
+      <Position>3</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>145462</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="90" parent="76" name="phone">
+      <Position>4</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>145462</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="91" parent="76" name="job_application">
+      <Position>5</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>145462</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="92" parent="76" name="created_at">
+      <Position>6</Position>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>145462</StateNumber>
+      <TypeId>1114</TypeId>
+    </column>
+    <column id="93" parent="76" name="updated_at">
+      <Position>7</Position>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>145462</StateNumber>
+      <TypeId>1114</TypeId>
+    </column>
+    <index id="94" parent="76" name="candidates_pkey">
+      <ObjectId>28791</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="95" parent="76" name="candidates_pkey">
+      <ObjectId>28792</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>candidates_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="96" parent="77" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>145464</StateNumber>
+      <DefaultExpression>nextval(&apos;job_applications_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+      <SequenceName>job_applications_id_seq</SequenceName>
+    </column>
+    <column id="97" parent="77" name="job_id_id">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+      <StateNumber>145464</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="98" parent="77" name="candidate_id_id">
+      <Position>3</Position>
+      <DataType>bigint|0s</DataType>
+      <StateNumber>145464</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="99" parent="77" name="submission_date">
+      <Position>4</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>145464</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="100" parent="77" name="created_at">
+      <Position>5</Position>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>145464</StateNumber>
+      <TypeId>1114</TypeId>
+    </column>
+    <column id="101" parent="77" name="updated_at">
+      <Position>6</Position>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>145464</StateNumber>
+      <TypeId>1114</TypeId>
+    </column>
+    <index id="102" parent="77" name="job_applications_pkey">
+      <ObjectId>28814</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="103" parent="77" name="index_job_applications_on_job_id_id">
+      <ObjectId>28816</ObjectId>
+      <ColNames>job_id_id</ColNames>
+    </index>
+    <index id="104" parent="77" name="index_job_applications_on_candidate_id_id">
+      <ObjectId>28817</ObjectId>
+      <ColNames>candidate_id_id</ColNames>
+    </index>
+    <key id="105" parent="77" name="job_applications_pkey">
+      <ObjectId>28815</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>job_applications_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="106" parent="78" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>145463</StateNumber>
+      <DefaultExpression>nextval(&apos;jobs_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+      <SequenceName>jobs_id_seq</SequenceName>
+    </column>
+    <column id="107" parent="78" name="title">
+      <Position>2</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>145463</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="108" parent="78" name="candidate_id_id">
+      <Position>3</Position>
+      <DataType>bigint|0s</DataType>
+      <StateNumber>145463</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="109" parent="78" name="created_at">
+      <Position>4</Position>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>145463</StateNumber>
+      <TypeId>1114</TypeId>
+    </column>
+    <column id="110" parent="78" name="updated_at">
+      <Position>5</Position>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>145463</StateNumber>
+      <TypeId>1114</TypeId>
+    </column>
+    <index id="111" parent="78" name="jobs_pkey">
+      <ObjectId>28802</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="112" parent="78" name="index_jobs_on_candidate_id_id">
+      <ObjectId>28804</ObjectId>
+      <ColNames>candidate_id_id</ColNames>
+    </index>
+    <key id="113" parent="78" name="jobs_pkey">
+      <ObjectId>28803</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>jobs_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="114" parent="79" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>145465</StateNumber>
+      <DefaultExpression>nextval(&apos;notes_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+      <SequenceName>notes_id_seq</SequenceName>
+    </column>
+    <column id="115" parent="79" name="candidate_id_id">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+      <StateNumber>145465</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="116" parent="79" name="note">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+      <StateNumber>145465</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="117" parent="79" name="created_at">
+      <Position>4</Position>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>145465</StateNumber>
+      <TypeId>1114</TypeId>
+    </column>
+    <column id="118" parent="79" name="updated_at">
+      <Position>5</Position>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>145465</StateNumber>
+      <TypeId>1114</TypeId>
+    </column>
+    <index id="119" parent="79" name="notes_pkey">
+      <ObjectId>28827</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="120" parent="79" name="index_notes_on_candidate_id_id">
+      <ObjectId>28829</ObjectId>
+      <ColNames>candidate_id_id</ColNames>
+    </index>
+    <key id="121" parent="79" name="notes_pkey">
+      <ObjectId>28828</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>notes_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="122" parent="80" name="version">
+      <Position>1</Position>
+      <DataType>varchar|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>145460</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="123" parent="80" name="schema_migrations_pkey">
+      <ObjectId>28772</ObjectId>
+      <ColNames>version</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="124" parent="80" name="schema_migrations_pkey">
+      <ObjectId>28773</ObjectId>
+      <ColNames>version</ColNames>
+      <UnderlyingIndexName>schema_migrations_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
