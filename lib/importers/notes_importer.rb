@@ -11,22 +11,18 @@ module Importers
     # end
 
     def import
-      # Candidate.destroy_all
-      # ActiveRecord::Base.connection.execute("TRUNCATE candidates")
       CSV.foreach(Rails.root + 'app/data/notes.csv', headers: true) do |line|
-        Note.create!(
-          candidate_id_id: find_candidate(line),
-          note: line['Note'])
-      rescue InvalidNoteError => exception
-        puts "Applicant email address not correctly formatted"
+        Candidate.update(find_candidate(line), note: line['Note'])
+        # Note.create!(
+        #   candidate_id: find_candidate(line),
+        #   note: line['Note'])
       end
     end
 
     private
 
     def find_candidate(line)
-      Candidate.where(email: line['Email'])
+      Candidate.where(email: line['Email']).first.id
     end
   end
 end
-

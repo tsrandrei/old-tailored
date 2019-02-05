@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'importers/notes_importer.rb'
 
 namespace :import do

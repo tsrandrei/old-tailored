@@ -2,9 +2,9 @@
 
 require 'test_helper'
 
-class ImporterControllerTest < ActionDispatch::IntegrationTest
+class ImportControllerTest < ActionDispatch::IntegrationTest
   test 'should get index' do
-    get importer_index_url
+    get import_index_url
     assert_response :success
   end
 end
