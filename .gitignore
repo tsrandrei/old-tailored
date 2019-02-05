@@ -10,12 +10,9 @@
 # Ignore all logfiles and tempfiles.
 /log/*
 /tmp/*
-!/log/.keep
-!/tmp/.keep
-
+tmp
 # Ignore uploaded files in development
 /storage/*
-!/storage/.keep
 
 /node_modules
 /yarn-error.log
@@ -25,3 +22,12 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+/public/packs
+/public/packs-test
+/node_modules
+yarn-debug.log*
+.yarn-integrity
+
+# Ignore RubyMine folders
+.idea
+
